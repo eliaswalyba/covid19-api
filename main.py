@@ -8,7 +8,7 @@ from fetcher import get_data, format_df
 flask_app = Flask(__name__)
 app = Api(
     app = flask_app,
-    doc="/covid19/api/1.0/",
+    doc="/covid19/api/v1.0/",
 	version = "1.0", 
 	title = "COVID19 REST API", 
 	description = "All the #COVID19 data you need to create remarkable dashboards or do very detailed analyzes."
